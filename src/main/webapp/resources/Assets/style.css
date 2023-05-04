@@ -1,1 +1,302 @@
-@charset "ISO-8859-1";
+@charset "UTF-8";
+
+/*CSS DEL INDEX**/
+header {
+  text-align: center;
+  background-image: url(img/banner3.jpg);
+  color: rgb(255, 255, 255);
+  background-size: cover; /**BANNER*/
+}
+
+h1 {
+
+  font-family: 'Abril Fatface', cursive;  /*Letra banner INCLUSIVETRIP**/
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  }
+
+h4{
+  
+  font-family: 'Raleway', sans-serif; /*Letra banner TUS PLANES...**/
+  font-style: italic;
+ 
+  }
+
+  /*COLOR DE FONDO**/
+body {
+  
+  background-color: white;
+}
+
+/*NAVBAR**/
+#navbarNav{
+  
+  font-family: 'Raleway', sans-serif;
+  margin-right: 50px;
+}
+
+#titulo{
+  font-weight: bold;
+}
+
+#contextotitulo{
+  font-style: italic;
+}
+
+/*IMAGEN DE LAS TURISTAS EN GALERIA**/
+
+#turid img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  #turid img {
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #turid img {
+    max-width: 100%;
+  }
+}
+
+/*CARRUSEL**/
+.carousel-inner img {
+  width: 60%;
+  max-height: 500px;
+  height: 500px;
+  margin-left: 0%;
+  margin-right: 10%;
+}
+
+
+#presentacionitinerario {     
+
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+#galeriaPres {
+
+  font-family: 'Raleway', sans-serif;
+}
+
+#pres4 {
+
+  font-family: 'Raleway', sans-serif;
+}
+
+
+#galeriaTitulo{
+  
+  font-family: 'Raleway', sans-serif;
+  justify-content: center;
+  background-color: rgb(135, 206, 235)
+}
+
+
+#iti{    /*TITULO DEL ITINERARIO **/   
+
+  font-family: 'Raleway', sans-serif;
+  justify-content: center;
+  background-color: rgb(135, 206, 235)
+}
+
+#itinformation{
+
+  text-align: center;
+}
+
+#itilistado{
+
+  text-align: left;
+}
+
+
+/*TITULO DE BIENVENIDA A INCLUSIVE TRIP**/
+#titulo{
+  font-family: 'Raleway', sans-serif;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+
+/*COMIENZO DE CARDS**/
+#cerrotitulo{      
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+#cerrocontenido{
+  font-family: 'Raleway', sans-serif;
+}
+
+#hotelestitulo{
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+#hotelescontenido{
+  font-family: 'Raleway', sans-serif;
+}
+
+#museostitulo{
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+#museoscontenido{
+  font-family: 'Raleway', sans-serif;
+}
+
+#ascensorestitulo{
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+#ascensorescontenido{
+  font-family: 'Raleway', sans-serif;
+}
+
+#restaurantestitulo{
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+#restaurantescontenido{
+  font-family: 'Raleway', sans-serif;
+}
+
+#pubstitulo{
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+#pubscontenido{
+  font-family: 'Raleway', sans-serif;
+}
+
+#tourstitulo{
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+#tourscontenido{
+  font-family: 'Raleway', sans-serif;
+}
+
+#eventostitulo{
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+#eventoscontenido{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+/*EFECTO DE CARDS**/
+
+.card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.card:hover:before {
+  opacity: 1;
+} 
+
+
+
+/*TERMINO DE CARDS**/
+
+
+#tituloMapa{
+  font-family: 'Raleway', sans-serif;
+  justify-content: center;
+  background-color: rgb(135, 206, 235)
+
+}
+
+#mapaPres{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+/*FOOTER**/
+#logofooter{
+  display: flex;
+  justify-content: center;
+}
+
+/*FOOTER DEL CORREO ELECTRONICO**/
+#form5Example2{
+  
+
+}
+
+
+/*CSS DEL INDEX**/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+li:hover {
+  background-color: #f1f1f1;
+}
+
+.selected {
+  background-color: #ccc;
+}
+
+
+
+/* DE AQUI PARA ABAJO CSS DE LA GALERIA**/
+
+
+
+/* DE AQUI PARA ABAJO CSS DEL LOGIN**/
+
+/* DE AQUI PARA ABAJO CSS DEL CONTACTO**/

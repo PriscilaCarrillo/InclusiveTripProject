@@ -1,25 +1,29 @@
-<nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <img id="logooo2" src="img/logoinclusive.png" alt="">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#pres">Acerca de nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#pres2">Itinerario</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#pres3">Galería</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#pres4">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
+ <!-- NAVBAR  -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+            <div class="containernavbar">
             </div>
-            </nav>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <b> <a class="nav-link text-white" href="login">Login</a> </b>
+                    </li>
+                    <li class="nav-item">
+                        <b> <a class="nav-link text-white" href="#">Quienes somos</a> </b>
+                    </li>
+
+                    <li class="nav-item">
+                        <b> <a class="nav-link text-white" href="itinerario">Crea tu itinerario</a> </b>
+                    </li>
+
+                    <li class="nav-item">
+                        <b> <a class="nav-link text-white" href="galeria">Galeria</a> </b>
+                    </li>
+                    <li class="nav-item">
+                        <b> <a class="nav-link text-white" href="contacto">Contacto</a> </b>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- TÉRMINO DE NAVBAR -->
