@@ -5,13 +5,13 @@
                         <!-- ICONOS DE REDES SOCIALES -->
                         <section class="mb-4">
                             <!-- FACEBOOK -->
-                            </svg>
+                            </svg> 
                             </svg>
                             <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!"
                                 role="button"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                     fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
                                     <path
-                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                         d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
                                 </svg> <i class="fab fa-facebook-f"></i></a>
 
                             <!-- TWITTER -->
@@ -66,7 +66,7 @@
                         <section class="">
                             <div class="row" id="logofooter">
                                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                                    <h5 class="text"> <img src="img/logotrip.png" alt="Logo de mi sitio web">
+                                    <h5 class="text"> <img src="resources/Assets/img/logotrip.png" alt="Logo de mi sitio web">
                                     </h5>
                                     <ul class="list-unstyled mb-0">
                                         <li>

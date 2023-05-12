@@ -8,7 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <!-- link de bootstrap-->
-  <link rel="stylesheet" href="./css/style.css"> <!-- link de css -->
+   <!-- link de css -->
   <meta charset="UTF-8">
 </head>
 
@@ -35,17 +35,17 @@
             ">
             <div class="card-body p-5 shadow-5 text-center">
               <h2 class="fw-bold mb-5">Iniciar sesión</h2>
-              <form>
+              <form action="login" method="POST">
 
                 <!-- COLUMNA PARA EL CORREO ELECTRONICO-->
                 <div class="form-outline mb-4">
-                  <input type="email" id="form3Example3" class="form-control" />
-                  <label class="form-label" for="form3Example3">Correo electrónico</label>
+                  <input type="text" name="username" id="form3Example3" class="form-control" />
+                  <label class="form-label" for="form3Example3">Nombre de usuario</label>
                 </div>
 
                 <!-- COLUMNA PARA LA CONTRASEÑA -->
                 <div class="form-outline mb-4">
-                  <input type="password" id="form3Example4" class="form-control" />
+                  <input type="password" name="password" id="form3Example4" class="form-control" />
                   <label class="form-label" for="form3Example4">Contraseña</label>
                 </div>
 
@@ -117,7 +117,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
-  <script src="scripts/main.js"></script>
+    
+  
   <!-- script de bootstrap -->
 
 </body>

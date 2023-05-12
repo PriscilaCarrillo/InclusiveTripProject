@@ -63,14 +63,14 @@
 			<div class="col-lg-8 mx-auto">
 				<div class="p-3 border">
 					<h2 id="titulo">¡Bienvenido a InclusiveTrip!</h2>
-					<p id="contextotitulo">Si estás planeando un viaje a Valparaíso
-						y necesitas ayuda para organizar tus actividades en la ciudad,
-						InclusiveTrip es un servicio con el cual podrás planificar tu
-						estadía de manera Ya sea que viajes en auto o bus, la aplicación
-						te ayudará a encontrar lugares cercanos que sean de tu interés,
-						permitiéndote disfrutar al máximo de tu viaje. Si necesitas más
-						orientación, no dudes en contactarnos. eficiente, personalizando
-						tus actividades según tus intereses y gustos.</p>
+					<p id="contextotitulo">¡Explora Valparaíso como nunca antes lo
+						habías hecho! Descubre una amplia variedad de actividades
+						emocionantes y emocionantes para disfrutar en tu próximo viaje.
+						Con solo un clic, podrás sumergirte en la cultura local, disfrutar
+						de vistas impresionantes y crear recuerdos inolvidables en la
+						hermosa ciudad costera de Valparaíso, Chile. Nuestro itinerario
+						personalizado te guiará por los mejores lugares y actividades,
+						¡así que prepárate para una aventura única en la vida! .</p>
 				</div>
 			</div>
 		</div>
@@ -216,16 +216,16 @@
 					data-bs-ride="carousel">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src="resources/Assets/img/checklist1.jpg" class="d-block w-100 rounded"
-								alt="">
+							<img src="resources/Assets/img/checklist1.jpg"
+								class="d-block w-100 rounded" alt="">
 						</div>
 						<div class="carousel-item">
-							<img src="resources/Assets/img/checklist3.jpg" class="d-block w-100 rounded"
-								alt="...">
+							<img src="resources/Assets/img/checklist3.jpg"
+								class="d-block w-100 rounded" alt="...">
 						</div>
 						<div class="carousel-item">
-							<img src="resources/Assets/img/checklist.jpg" class="d-block w-100 rounded"
-								alt="...">
+							<img src="resources/Assets/img/checklist.jpg"
+								class="d-block w-100 rounded" alt="...">
 						</div>
 					</div>
 					<button class="carousel-control-prev" type="button"
@@ -253,10 +253,8 @@
 
 			<!-- FOTO DE LAS TURISTAS EN LA GALERIA  -->
 			<div id="turid" class="turista">
-				<img src="resources/Assets/img/turista2.jpg" alt="" width="1270" height="600">
-				<br>
-				<br>
-				<br>
+				<img src="resources/Assets/img/turista2.jpg" alt="" width="1270"
+					height="600"> <br> <br> <br>
 
 				<!-- TITULO DE MAPA DE VALPARAISO -->
 				<h1 id="tituloMapa" class="text-center">Mapa de Valparaíso</h1>
@@ -272,15 +270,22 @@
 						allowfullscreen="" loading="lazy"
 						referrerpolicy="no-referrer-when-downgrade"
 						style="aspect-ratio: 16/9; width: 100%;"></iframe>
-						
+
 				</div>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
+				<br> <br> <br> <br> <br>
 				<!-- TÉRMINO DE MAPA DE GOOGLE-->
-				
+
+				<div id="ww_de5d2cc149e14" v='1.3' loc='id'
+					a='{"t":"horizontal","lang":"es","sl_lpl":1,"ids":["wl2933"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+					Weather Data Source: <a
+						href="https://sharpweather.com/es/tiempo_valparaíso/30_días/"
+						id="ww_de5d2cc149e14_u" target="_blank">Clima 30 días
+						Valparaíso</a>
+				</div>
+				<script async
+					src="https://app1.weatherwidget.org/js/?id=ww_de5d2cc149e14"></script>
+
+
 
 				<jsp:include page="fijos/footer.jsp"></jsp:include>
 
@@ -297,7 +302,7 @@
     QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YE
     SvpZ13"
 					crossorigin="anonymous"></script>
-				<script src="scripts/main.js"></script>
+				<script src="../resources/main.js"></script>
 </body>
 
 </html>
